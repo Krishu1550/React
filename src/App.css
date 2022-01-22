@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+body{
+margin: 0;
+padding: 0;
+
+}
+.item{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  grid-template-rows: repeat(auto,2fr);
+  
+}
